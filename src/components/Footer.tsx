@@ -64,15 +64,15 @@ export default function Footer() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-purple-500 shrink-0 mt-0.5" />
-                  <span>123 Market St, Suite 400<br/>San Francisco, CA 94105</span>
+                  <span>19-C, khyaban-e- Nishat, Ittehad Commercial, D.H.A Phase 6 Defence Housing Authority, Karachi</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-purple-500 shrink-0" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+92 315 0288320</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-purple-500 shrink-0" />
-                  <span>hello@pantherxvision.com</span>
+                  <span>pantherxvision786@gmail.com</span>
                 </li>
               </ul>
             </div>

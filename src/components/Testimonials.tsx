@@ -4,30 +4,26 @@ import ScrollReveal from './ScrollReveal';
 interface Testimonial {
   name: string;
   role: string;
-  image: string;
   quote: string;
   rating: number;
 }
 
 const testimonials: Testimonial[] = [
   {
-    name: 'Sarah Jenkins',
-    role: 'CEO, TechStart',
-    image: 'https://i.pravatar.cc/150?u=sarah',
-    quote: "The team transformed our online presence entirely. Our engagement rates have doubled, and the new design perfectly captures our brand identity. Truly exceptional work.",
+    name: 'Maya Kanwal',
+    role: 'Owner, Saffron Beauty Salon',
+    quote: "Our online presence has completely transformed. Since working with the team, our daily salon bookings have doubled and our social media reach is amazing. Absolutely stellar service!",
     rating: 5,
   },
   {
-    name: 'Marcus Chen',
-    role: 'Founder, StyleBrand',
-    image: 'https://i.pravatar.cc/150?u=marcus',
-    quote: "Professional, highly creative, and incredibly effective. They understood our vision from day one and delivered a product that went far beyond our expectations.",
+    name: 'Rehan Zaiddi',
+    role: 'Owner, BigBite Restaurant',
+    quote: "Professional, highly creative, and incredibly effective. Our restaurant's weekend foot traffic has increased significantly thanks to their exceptional digital marketing strategies.",
     rating: 5,
   },
   {
     name: 'Emma Davis',
     role: 'Marketing Director, GrowthCo',
-    image: 'https://i.pravatar.cc/150?u=emma',
     quote: "Their data-driven approach completely changed how we do marketing. We have seen a 300% increase in qualified leads within just three months of launching.",
     rating: 5,
   },
@@ -67,16 +63,9 @@ export default function Testimonials() {
                   &quot;{testimonial.quote}&quot;
                 </p>
                 
-                <div className="flex items-center gap-4 mt-auto">
-                  <img 
-                    src={testimonial.image} 
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm group-hover:border-purple-200 transition-colors"
-                  />
-                  <div>
-                    <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-500">{testimonial.role}</p>
-                  </div>
+                <div className="mt-auto pt-6 border-t border-gray-100">
+                  <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
+                  <p className="text-sm text-gray-500">{testimonial.role}</p>
                 </div>
               </div>
             </ScrollReveal>

@@ -77,15 +77,15 @@ export default function Contact() {
               <div className="space-y-6">
                 <div>
                   <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Email Us</h4>
-                  <p className="text-lg">hello@pantherxvision.com</p>
+                  <p className="text-lg">pantherxvision786@gmail.com</p>
                 </div>
                 <div>
                   <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Call Us</h4>
-                  <p className="text-lg">+1 (555) 123-4567</p>
+                  <p className="text-lg">+92 315 0288320</p>
                 </div>
                 <div>
                   <h4 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-2">Location</h4>
-                  <p className="text-lg">Digital Marketing Hub, NY</p>
+                  <p className="text-lg">19-C, khyaban-e- Nishat, Ittehad Commercial, D.H.A Phase 6 Defence Housing Authority, Karachi</p>
                 </div>
               </div>
             </ScrollReveal>
