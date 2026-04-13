@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white selection:bg-purple-200 selection:text-purple-900">
       <Navbar />
-      <div className="pt-16 sm:pt-20"> {/* Responsive padding for fixed navbar */}
+      <div className="pt-24 sm:pt-32"> {/* Restored padding to fix Hero overlapping */}
         <Hero />
         <WhatWeDo />
         <Services />

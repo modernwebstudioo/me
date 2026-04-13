@@ -15,8 +15,11 @@ export default function Hero() {
       {/* Background — layered radial glows */}
       <div className="absolute inset-0 -z-10 bg-white">
         <div className="absolute left-1/2 top-0 -translate-x-1/2 w-[120vw] max-w-[1400px] h-[600px] sm:h-[700px] bg-purple-100/50 rounded-full blur-[140px] pointer-events-none"></div>
-        <div className="absolute right-0 bottom-0 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-indigo-100/30 rounded-full blur-[120px] pointer-events-none"></div>
-        <div className="absolute left-0 bottom-1/4 w-[250px] h-[250px] bg-pink-100/20 rounded-full blur-[100px] pointer-events-none"></div>
+        <div className="absolute right-0 bottom-0 w-[400px] sm:w-[500px] h-[400px] sm:h-[500px] bg-indigo-100/40 rounded-full blur-[120px] pointer-events-none"></div>
+        <div className="absolute left-0 bottom-1/4 w-[300px] h-[300px] bg-fuchsia-100/30 rounded-full blur-[100px] pointer-events-none"></div>
+        
+        {/* Central glowing orb for text backdrop */}
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-gradient-to-r from-purple-200/40 via-indigo-200/40 to-purple-200/40 rounded-full blur-[100px] pointer-events-none"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
@@ -70,10 +73,10 @@ export default function Hero() {
           
           {/* Main heading */}
           <ScrollReveal animation="fade-up" delay={200}>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 sm:mb-8 tracking-tight leading-[1.1]">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-gray-900 mb-6 sm:mb-8 tracking-tighter leading-[1.1]">
               Elevate your brand <br className="hidden sm:block"/>
               with{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-violet-500 to-indigo-600 animate-gradient-text">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-violet-500 to-indigo-600 animate-gradient-text drop-shadow-sm">
                 Panther X Vision.
               </span>
             </h1>

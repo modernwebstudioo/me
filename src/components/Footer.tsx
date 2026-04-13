@@ -22,13 +22,13 @@ export default function Footer() {
                 Growing business through data-driven digital marketing strategies and state-of-the-art web solutions.
               </p>
               <div className="flex space-x-3">
-                <a href="#" className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center hover:bg-gradient-to-br hover:from-purple-600 hover:to-indigo-600 hover:border-transparent hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-purple-500/20">
+                <a href="https://www.facebook.com/profile.php?id=61585249958576" className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center hover:bg-gradient-to-br hover:from-purple-600 hover:to-indigo-600 hover:border-transparent hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-purple-500/20">
                   <Facebook className="w-4 h-4" />
                 </a>
                 <a href="#" className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center hover:bg-gradient-to-br hover:from-purple-600 hover:to-indigo-600 hover:border-transparent hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-purple-500/20">
                   <Twitter className="w-4 h-4" />
                 </a>
-                <a href="#" className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center hover:bg-gradient-to-br hover:from-purple-600 hover:to-indigo-600 hover:border-transparent hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-purple-500/20">
+                <a href="https://www.instagram.com/panther_x_vision?igsh=MWlncDhucWV0bW9vbQ==" className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center hover:bg-gradient-to-br hover:from-purple-600 hover:to-indigo-600 hover:border-transparent hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-purple-500/20">
                   <Instagram className="w-4 h-4" />
                 </a>
                 <a href="#" className="w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center hover:bg-gradient-to-br hover:from-purple-600 hover:to-indigo-600 hover:border-transparent hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-purple-500/20">
